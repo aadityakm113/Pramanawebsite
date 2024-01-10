@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="nav_container">
         <div className="logo mt-[20px] ml-[15px]">
-            <img  src="src\public\assets\Pramana logo.svg" alt="" />
+            <img  src="./src/public/assets/new logo.png" alt="" />
          </div>
         <div onClick={handleClick} className="burgur_menu mt-[17px]">
             {menu?<i className='bx bx-arrow-back'></i>:<i className='bx bx-menu'></i>}

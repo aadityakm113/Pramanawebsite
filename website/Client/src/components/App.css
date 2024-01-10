@@ -18,7 +18,6 @@
 }
 .logo img{
     width: 78px;
-    height: 68px;
 }
 .nav_links{
     display: flex;
@@ -64,7 +63,7 @@
     position: absolute;
     height: 60%;
     width: 100%;
-    background-image: url("../public/assets/Phone/background.gif");
+    background-image: url("../public/assets/website GIF (1).gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -320,10 +319,44 @@
     border: none;
     outline: none;
 }
-/*contact*/
+/*.................................contact.................................*/
 .contact{
     height: 20%;
     width: 100%;
+}
+
+.contact_info{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:100%;
+  width:100;
+}
+
+.vertical_line{
+  width: 20%; 
+  
+  transform:rotate(-90deg); 
+  transform-origin: center; 
+  border: 1px white solid;
+  top:0;
+}
+
+.email {
+  display:flex;
+  font-size:xx-large;
+}
+.email h4{
+  font-size:large;
+}
+
+.insta {
+  display:flex;
+  font-size:xx-large;
+}
+
+.insta h4{
+  font-size:large;
 }
 
 .swiper_container {
@@ -450,4 +483,15 @@
     font-size: xx-large;
     padding-left: 1%;
     font-family: 'Berkshire Swash';
+    text-align:right;
+  }
+
+  .footer_background{
+    display:flex;
+    width:100%;
+    justify-content : space-between;
+  }
+
+  .all_rights{
+    text-align:center;
   }

@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div className="box">
         <div className="hero_background">
-
+            
         </div>
         <div className="navbar">
             <Navbar/>
@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero_container">
         <div className="hero_text">
             <h1 className="text-[50px]">Pramana 24</h1>
-            <span className="text-[20px]">The anual fest of GITAM Hyderabad</span>
+            <span className="text-[20px]">The annual fest of GITAM Hyderabad</span>
         </div>
         <div className="sponsor mt-[10px]">
             <span>Sopnsored by</span>
