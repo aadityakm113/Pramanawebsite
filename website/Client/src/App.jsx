@@ -1,9 +1,10 @@
-import {Hero,Events,Updates,FAQs,Contact,Footer,Page3} from "./components"
+import {Hero,Events,Updates,FAQs,Contact,Footer,Page3, Navbar} from "./components"
 import "./components/App.css"
 
 const App = () => {
   return (
     <div className="page">
+      <Navbar/>
       <Hero/>
       <Events/>
       <Page3/>

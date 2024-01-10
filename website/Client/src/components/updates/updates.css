@@ -1,0 +1,45 @@
+.updates{
+    height: 20%;
+    width: 100%;
+    position: relative;
+}
+.update_background{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.swiper_container {
+    height: 40%;
+    padding:  0;
+    position: relative;
+}
+  
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+  
+@media (max-width: 500px) {
+    .swiper_container {
+      height: 30%;
+    }
+    .swiper-slide {
+      width: 40% !important;
+      height: 70% !important;
+    }
+    .swiper-slide img {
+      width: 100% !important;
+      height: 100% !important ;
+    }
+}
+  
+.swiper-slide img {
+    width: 40%;
+    height: 70%;
+    border-radius: 10%;
+    object-fit: cover;
+} 
