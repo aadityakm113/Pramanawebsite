@@ -4,7 +4,7 @@ import Contact from '../Contact'
 import Footer from '../Footer'
 
 //Replace key below with the valid instagram token
-const key = "key"
+const key = import.meta.env.VITE_INSTA_TOKEN
 const Page3 = () => {
   return (
     <div className="box">

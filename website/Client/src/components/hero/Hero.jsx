@@ -2,6 +2,9 @@ import Navbar from "../navbar/Navbar"
 const Hero = () => {
   return (
     <div className="box">
+        <div className="hero_background">
+
+        </div>
         <div className="navbar">
             <Navbar/>
         </div>

@@ -1,5 +1,12 @@
 import { useState,useEffect } from 'react';
+import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
 
 const Updates = (props) => {
   const [posts, setPosts] = useState([]);
@@ -33,15 +40,42 @@ const Updates = (props) => {
 
   return (
     <div className='updates'>
-      <h2>Instagram Feed</h2>
-      <div>
-        {posts.map((post) => 
-          <div  key={post.id}>
-          <img className='h-[48px]' src={post.media_url}  />
-          <p>{post.caption}</p>
-        </div>
-        )}
-      </div>
+      <h2 className='gallery_heading'>Instagram Feed</h2>
+      <Swiper
+      effect={'coverflow'}
+      grabCursor={true}
+      centeredSlides={true}
+      loop={true}
+      slidesPerView={'auto'}
+      coverflowEffect={
+        {
+          rotate:0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }
+      }
+      pagination={{el:'', clickable:true}}
+      navigation={{
+        nextEl:'.swiper-button-next',
+        prevEl:'.swiper-button-prev',
+        clickable:true,
+      }}
+      modules = {[EffectCoverflow, Pagination, Navigation]}
+      className='swiper_container'
+    >
+      {posts.map((post) =>
+            <div className='gallery_item'>
+              {post.media_type === 'IMAGE' ? (
+                <SwiperSlide><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+              ) : post.media_type === 'VIDEO' ? (
+                <SwiperSlide><a href={post.permalink}><img src={post.thumbnail_url} /></a></SwiperSlide>
+              ) : post.media_type === "CAROUSEL_ALBUM" ? (
+                <SwiperSlide><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+              ):null}
+            </div>
+            )}
+    </Swiper>
     </div>
   );
 };
@@ -64,5 +98,20 @@ export default Updates;
    
   )
 }
+<div className="item_box">
+        <div className="gallery_carousel">
+            {posts.map((post) =>
+            <div className='gallery_item'>
+              {post.media_type === 'IMAGE' ? (
+                <a href={post.permalink}><img className="object-contain" src={post.media_url} /></a>
+              ) : post.media_type === 'VIDEO' ? (
+                <a href={post.permalink}><img className='object-contain' src={post.thumbnail_url} /></a>
+              ) : post.media_type === "CAROUSEL_ALBUM" ? (
+                <a href={post.permalink}><img className="object-contain" src={post.media_url} /></a>
+              ):null}
+            </div>
+            )}
+        </div>
+        </div>
 
 export default Updates*/
