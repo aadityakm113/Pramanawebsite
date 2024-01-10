@@ -12,7 +12,8 @@ const Page3 = () => {
             <Updates Insta_key={key}/>
             <FAQs/>
             <Contact/>
-            <Footer/>
+            
+            
         </div>
 
     </div>
