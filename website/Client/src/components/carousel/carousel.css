@@ -44,12 +44,12 @@
     
     top: 50%;
     &.left{
-        font-size: xx-large;
+        font-size: xxx-large;
         right: 10%;
         transform: translateX(-100%) translatey(-50%);
     }
     &.right{
-        font-size: xx-large;
+        font-size: xxx-large;
         left: 10%;
         transform: translateX(100%) translatey(-50%);
     }

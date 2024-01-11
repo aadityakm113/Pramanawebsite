@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     
-    top: -24%;
+    top: -22%;
     flex-direction: column;
     display: flex;
     height: 124%;
@@ -22,11 +22,11 @@
 }
 .gallery_heading{
     width: 100%;
-    font-size: xx-large;
+    font-size: xxx-large;
     padding-left: 5%;
     font-family: 'Berkshire Swash';
     color: white;
-    margin-top: 2%;
+    margin-top: 15%;
     margin-bottom: 2%;
 
 }
@@ -62,15 +62,16 @@
   }
 .swiper_container {
     height: 70%;
-    
-    padding:  0;
+    width: 100%;
+    margin-top: 5%;
     position: relative;
 }
   
 .swiper-slide {
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: 80%;
     position: relative;
+    
 }
   
 @media (max-width: 500px) {
@@ -80,7 +81,7 @@
     }
     .swiper-slide {
       width: 70% !important;
-      height: 90% !important;
+      height: 80% !important;
     }
     .swiper-slide img {
       width: 100% !important;
@@ -173,7 +174,50 @@
 .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--primary);
   }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+..............................................................DESKTOP................................
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 800px) {
+    .swiper_container {
+      height: 70%;
+      margin-top: -2%;
+      
+    }
+    .swiper-slide {
+      width: 50% !important;
+      height: 90% !important;
+    }
+    .swiper-slide img {
+      width: 100% !important;
+      height: 100% !important ;
+    }
+    .gallery_background{
+      background-image: url("../../public/assets/Phone/Wave below events.svg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      
+      top: -65%;
+      flex-direction: column;
+      display: flex;
+      height: 165%;
+      width: 100%;
+      
+  }
+  .gallery_heading{
+    width: 100%;
+    font-size: xxx-large;
+    padding-left: 5%;
+    font-family: 'Berkshire Swash';
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 1%;
 
+}
+}
 /*.................Updates.......................*/
 .updates{
   height: 100%;

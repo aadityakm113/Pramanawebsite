@@ -1,5 +1,5 @@
 .FAQs{
-    height: 30%;
+    height: 100%;
     width: 100%;
 }
 .faq_background{
@@ -8,6 +8,12 @@
     width: 100%;
     flex-direction: column;
     
+}
+.faq_heading{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Berkshire Swash';
+    padding-left: 5%;
 }
 
 .subpage{

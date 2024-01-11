@@ -1,11 +1,11 @@
-import Footer from "./Footer"
+
 import './component.css'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' >
       
-        <div className="gallery_heading"><h1>Contact us</h1></div>
+        <div className="contact_heading"><h1>Contact us</h1></div>
         <div className="vendor_message">
           <span>Want to become a vendor?
           <a href="https://docs.google.com/forms/d/1jo9xCyWl6f8qgkRO2-pUJZlu5dZs-5s-O95XsZ3iNGw/edit">
