@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="hero_container">
-            <div className="logo mt-[20px] ml-[15px]">
+            <div className="logo mt-[5%] ml-[5%]">
                 <img  src="./src/public/assets/new logo.png" alt="" />
             </div>
             
