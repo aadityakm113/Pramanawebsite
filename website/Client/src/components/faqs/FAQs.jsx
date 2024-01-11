@@ -1,4 +1,4 @@
-
+import './faqs.css'
 
 const FAQs = () => {
   return (

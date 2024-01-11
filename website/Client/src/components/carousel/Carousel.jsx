@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './carousel.css'
 
 import { eventlist } from '../../constants'
 

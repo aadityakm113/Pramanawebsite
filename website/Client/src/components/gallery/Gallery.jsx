@@ -1,5 +1,6 @@
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import './gallery.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -34,11 +35,11 @@ const Gallery = () =>{
       modules = {[EffectCoverflow, Pagination, Navigation]}
       className='swiper_container'
     >
-      <SwiperSlide><img src="src\public\assets\img1.JPG" alt="img1"/></SwiperSlide>
+      <SwiperSlide><img className='gallery_item' src="src\public\assets\img1.JPG" alt="img1"/></SwiperSlide>
       <SwiperSlide><img src="src\public\assets\img2.JPG" alt="img2"/></SwiperSlide>
       <SwiperSlide><img src="src\public\assets\img3.JPG" alt="img3"/></SwiperSlide>
       <SwiperSlide><img src="src\public\assets\img4.JPG" alt="img4"/></SwiperSlide>
-      <div className ='gallery_item'><SwiperSlide><img src="src\public\assets\img5.JPG" alt="img5"/></SwiperSlide></div>
+      <div><SwiperSlide><img src="src\public\assets\img5.JPG" alt="img5"/></SwiperSlide></div>
     </Swiper>
     </div>
     </div>

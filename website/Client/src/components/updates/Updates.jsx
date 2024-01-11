@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react';
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
+import '../gallery/gallery.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -39,8 +40,8 @@ const Updates = (props) => {
   }, [props.Insta_key]);
 
   return (
-    <div className='updates'>
-      <h2 className='gallery_heading'>Instagram Feed</h2>
+    <div className='updates' >
+      <h2 className='update_heading'>Instagram Feed</h2>
       <Swiper
       effect={'coverflow'}
       grabCursor={true}
@@ -65,7 +66,7 @@ const Updates = (props) => {
       className='swiper_container'
     >
       {posts.map((post) =>
-            <div className='gallery_item'>
+            <div key={post.id} className='gallery_item'>
               {post.media_type === 'IMAGE' ? (
                 <SwiperSlide><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
               ) : post.media_type === 'VIDEO' ? (
