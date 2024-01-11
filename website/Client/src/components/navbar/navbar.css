@@ -13,9 +13,7 @@
     right: 0%;
     z-index: 1000;
 }
-.logo img{
-    width: 78px;
-}
+
 .nav_links{
     display: flex;
     flex-direction: column;

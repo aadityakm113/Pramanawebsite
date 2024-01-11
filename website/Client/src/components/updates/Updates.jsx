@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react';
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
-import './updates.css'
+import '../gallery/gallery.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -40,8 +40,8 @@ const Updates = (props) => {
   }, [props.Insta_key]);
 
   return (
-    <div className='updates' id='updates'>
-      <h2 className='gallery_heading'>Instagram Feed</h2>
+    <div className='updates' >
+      <h2 className='update_heading'>Instagram Feed</h2>
       <Swiper
       effect={'coverflow'}
       grabCursor={true}

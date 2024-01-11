@@ -12,7 +12,7 @@
 
 .subpage{
     background: linear-gradient(to bottom, #9030cc, #9C00FF);
-    height: 100%;
+    height: 100vh;
     width: 100%;
     border: none;
     outline: none;
