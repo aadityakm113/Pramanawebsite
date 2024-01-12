@@ -41,7 +41,7 @@ const Updates = (props) => {
 
   return (
     <div className='updates' >
-      <h2 className='update_heading'>Instagram Feed</h2>
+      <h2 className='update_heading '>Instagram Feed</h2>
       <Swiper
       effect={'coverflow'}
       grabCursor={true}
@@ -63,16 +63,16 @@ const Updates = (props) => {
         clickable:true,
       }}
       modules = {[EffectCoverflow, Pagination, Navigation]}
-      className='swiper_container'
+      className='swiper_container  h-[100%] md:mt-[-5%] '
     >
       {posts.map((post) =>
-            <div key={post.id} className='gallery_item'>
+            <div key={post.id}  >
               {post.media_type === 'IMAGE' ? (
-                <SwiperSlide><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
               ) : post.media_type === 'VIDEO' ? (
-                <SwiperSlide><a href={post.permalink}><img src={post.thumbnail_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.thumbnail_url} /></a></SwiperSlide>
               ) : post.media_type === "CAROUSEL_ALBUM" ? (
-                <SwiperSlide><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
               ):null}
             </div>
             )}

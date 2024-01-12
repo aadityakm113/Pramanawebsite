@@ -14,6 +14,7 @@
     color: white;
     font-family: 'Berkshire Swash';
     padding-left: 5%;
+    padding-top: 2%;
 }
 
 .subpage{
@@ -22,4 +23,9 @@
     width: 100%;
     border: none;
     outline: none;
+}
+@media (min-width:800px) {
+    .faq_heading{
+        font-size: xxx-large;
+    }
 }

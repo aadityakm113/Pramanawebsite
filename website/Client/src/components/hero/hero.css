@@ -125,7 +125,7 @@
 
     }
     .hero_background{
-        height: 115%;
+        height: 121%;
     }
     .logo{
         
@@ -144,6 +144,7 @@
         font-size: 120px;
         flex-direction: column;
         justify-content: space-around;
+        margin-bottom: 15%;
     }
     .hero_text span{
         font-family: 'Poppins',sans-serif;
