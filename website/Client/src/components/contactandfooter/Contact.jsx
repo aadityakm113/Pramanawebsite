@@ -3,17 +3,17 @@ import './component.css'
 
 const Contact = () => {
   return (
-    <div className='contact' >
+    <div className='contact sm:height[100%]'  >
       
         <div className="contact_heading"><h1>Contact us</h1></div>
-        <div className="vendor_message">
+        <div className="vendor_message sm:text-start">
           <span>Want to become a vendor?
           <a href="https://docs.google.com/forms/d/1jo9xCyWl6f8qgkRO2-pUJZlu5dZs-5s-O95XsZ3iNGw/edit">
             Click Here to Apply!
           </a>
           </span>
         </div>
-        <div className="contact_info">
+        <div className="contact_info  sm:flex-row">
           <div className="poc_container">
             <div className="contact_person">
               <p>
@@ -30,7 +30,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="vertical_line"></div>
+          <div className="vertical_line md:flex"></div>
           <div className="contact_id">
           <div className="subdiv">
             <i className='bx bx-envelope' ></i>
