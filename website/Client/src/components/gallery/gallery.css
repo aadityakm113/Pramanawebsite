@@ -167,7 +167,6 @@
     background: var(--primary);
   }
   .updates{
-    height: 100%;
     width: 100%;
     position: relative;
     display: flex;
@@ -196,9 +195,7 @@
     .swiper_container {
       height: 40%;
       margin-bottom: 3%;
-      
-      
-      
+      margin-top: 0%;
     }
     .swiper-slide {
       width: 40% !important;

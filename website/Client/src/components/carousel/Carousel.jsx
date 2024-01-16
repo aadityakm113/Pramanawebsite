@@ -24,8 +24,7 @@ const Carousel = () => {
       
       <div className={`card_container`}>
       { eventlist.map((e) => (
-        <div className={`text-black card bg-[url('./public/assets/satoru_gojo_4k_hd_jujutsu_kaisen.jpg')] ${active===e.id?'card_show':''}`}key={e.id} >{e.title}</div>
-        
+        <div className={`text-black card bg-[url('../src/public/assets/Events/${e.image}')] ${active===e.id?'card_show':''}`}key={e.id} ><img src={e.image} alt={e.image}></img></div>
       ))
 
       }

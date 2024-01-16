@@ -13,10 +13,10 @@ const Hero = () => {
                     <h1>Pramana 24</h1>
                     <span>The annual fest of Gitam hyderabad</span>
                 </div>
-                <div className="sponsor">
+                {/* <div className="sponsor">
                     <span>sponsored by</span>
                     <img src="src\public\assets\Phone\Sponsor logo.svg" alt="" />
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="info_tab">
