@@ -43,8 +43,8 @@
   color: white;
 }
 .vertical_line{
- height: 80%;
- width: 1px;
+ 
+ width:1px;
  margin: 1%;
  display: none;
  border: white solid 1px;
@@ -175,7 +175,8 @@
   
 }
 .vertical_line{
- height: 90%;
+ height: 200px;
+ border-radius: 30%;
  width: 1px;
  margin: 1%;
  border: white solid 1px;

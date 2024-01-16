@@ -23,8 +23,13 @@ const Carousel = () => {
       }
       
       <div className={`card_container`}>
-      { eventlist.map((e) => (
-        <div className={`text-black card bg-[url('../src/public/assets/Events/${e.image}')] ${active===e.id?'card_show':''}`}key={e.id} ><img src={e.image} alt={e.image}></img></div>
+      { eventlist.map((e,idx) => (
+        <div className={`card  brightness-50 bg-[url(${e.image})] ${active===e.id?'card_show':''}`} key={idx} >
+          <div className='absolute font-bold text-white'>{e.title}</div>
+
+          
+        </div>
+        
       ))
 
       }
