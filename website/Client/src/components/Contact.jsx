@@ -27,7 +27,7 @@ const Contact = () => {
           <div className="vertical_line"></div>
           <div className="contact_id">
           <div className="email">
-            <i class='bx bx-envelope' ></i>
+            <i className='bx bx-envelope' ></i>
             <h4>pramana.hyd@gitam.edu</h4>
           </div>
           <div className="insta">

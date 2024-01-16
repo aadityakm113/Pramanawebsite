@@ -34,6 +34,18 @@
     position: absolute;
     z-index: 200;
 }
+.coming_soon{
+    background-image: url("../../public/assets/Phone/Coming soon tape.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25%;
+    min-height:20%;
+    top: -1%;
+    right: 0%;
+    position: absolute;
+    z-index: 201;
+}
 .carousel_box{
     min-height: 50%;
     position: relative;
@@ -172,6 +184,18 @@
         top: -0.1%;
         position: absolute;
         z-index: 200;
+    }
+    .coming_soon{
+        background-image: url("../../public/assets/Phone/Coming soon tape.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 25%;
+        min-height:20%;
+        top: -5%;
+        right: -1%;
+        position: absolute;
+        z-index: 201;
     }
     .carousel_box{
         min-height: 55%;
