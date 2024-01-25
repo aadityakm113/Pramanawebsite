@@ -17,12 +17,17 @@
     position: absolute;
     height: 150%;
     width: 100%;
-    background-image: url("src/public/assets/website.gif");
+    background-image: url("/assets/background.webp");
+    backdrop-filter: blur(64px) brightness(0.001);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -100;
-
+}
+#blur{
+    background-color: rgba(0, 0, 0, 0.400);
+    height: 100%;
+    width: 100%;
 }
 .logo{
     position: relative;
@@ -30,20 +35,20 @@
     left: -35%;
 }
 .logo img{
-    width: 78px;
+    width: 68px;
 }
 
 .hero_text{
     min-height:30%;
-    font-family: 'Berkshire Swash';
     text-align: center;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-   
-   
+}
+.hero_text h1{
+    font-size: xxx-large;
+    font-family: 'Berkshire Swash';
 }
 .sponsor{
    
@@ -52,7 +57,7 @@
     align-items: center;
 }
 .info_container{
-    background-image:url("src/public/assets/Phone/Wave above events.svg") ;
+    background-image:url("/assets/Phone/Wave above events.svg") ;
     min-height:110%;
     width: 100%;
     flex-direction: column;
@@ -76,8 +81,8 @@
     
 }
 .p_container{
-    min-height: 40%;
-    margin-top: 10%;
+    min-height: 35%;
+    margin-top: 18%;
     text-align:center ;
     margin-inline: 10%;
     color: white;
@@ -129,11 +134,11 @@
     }
     .logo{
         
-        left: -46%;
+        left: -41%;
         top: -20%;
     }
     .logo img{
-        width: 118px;
+        width: 100px;
     }
     .hero_text{
         min-height:30%;
@@ -144,12 +149,15 @@
         font-size: 120px;
         flex-direction: column;
         justify-content: space-around;
-        margin-bottom: 15%;
+        margin-bottom: 11%;
+    }
+    .hero_text h1{
+        font-size: 120px;
+        font-family: 'Berkshire Swash';
     }
     .hero_text span{
         font-family: 'Poppins',sans-serif;
-        font-size: 38px;
-        
+        font-size: 25px;
     }
     .sponsor img{
         height: 50px;
@@ -174,7 +182,7 @@
         display: flex;
     
         flex-direction: row;
-        background-image:url("src/public/assets/Desktop/Wave above events.svg") ;
+        background-image:url("/assets/Desktop/Wave above events.svg") ;
         
         flex-direction: row;
         align-items: center;
@@ -192,12 +200,12 @@
         text-align:start ;
         font-size: 110%;
         color: white;
-        margin-top: 15%;
+        margin-top: 11%;
         margin-inline: 1%;
     }
     .venue{
         height: 60%;
-        margin-top: 10%;
+        margin-top: 8%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -220,7 +228,7 @@
         display: flex;
         align-items:center ;
         margin-bottom:15px;
-        font-size: x-large;
+        font-size: 120%;
     }
     .sub_venue h4{
         margin-left: 5px;

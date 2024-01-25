@@ -7,11 +7,11 @@ const Contact = () => {
       
         <div className="contact_heading"><h1>Contact us</h1></div>
         <div className="vendor_message sm:text-start">
-          <span>Want to become a vendor?
-          <a href="https://docs.google.com/forms/d/1jo9xCyWl6f8qgkRO2-pUJZlu5dZs-5s-O95XsZ3iNGw/edit">
+          <br></br><b><span>Want to become a vendor?&nbsp;
+          <a href="https://forms.gle/Yhoi6whqnKW6gW4b7">
             Click Here to Apply!
           </a>
-          </span>
+          </span></b>
         </div>
         <div className="contact_info  sm:flex-row">
           <div className="poc_container">
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="contact_person">
               <p>
-                SRINIVAS
+                SRINIVAS<br/>
                 8501092092<br/>
                 (Head of Finance)
               </p>
@@ -36,6 +36,7 @@ const Contact = () => {
             <i className='bx bx-envelope' ></i>
             <h4>pramana.hyd@gitam.edu</h4>
           </div>
+          <br/>
           <div className="subdiv">
             <i className='bx font-[100px] bxl-instagram'></i>
             <h4><a href="https://www.instagram.com/pramana_2024.gitam?igsh=MWJzNnhyemhpbnQ4MQ==">@pramana_2024.gitam</a></h4>

@@ -3,15 +3,15 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="hero_container">
-            <div className="logo mt-[14%] ml-[5%]">
-                <img  src="./src/public/assets/new logo.png" alt="" />
+            <div className="logo mt-[12%] ml-[-7%]">
+                <img  src="/assets/new logo.png" alt="" />
             </div>
             
-            <div className="hero_background"></div>
+            <div className="hero_background"><div id="blur"></div></div>
             <div className="hero_text">
                 <div>
                     <h1>Pramana 24</h1>
-                    <span>The annual fest of Gitam hyderabad</span>
+                    <span>THE ANNUAL FEST OF GITAM HYDERABAD</span>
                 </div>
                 {/* <div className="sponsor">
                     <span>sponsored by</span>

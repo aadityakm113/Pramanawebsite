@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 .gallery_background{
-    background-image: url("../../public/assets/Phone/Wave below events.svg");
+    background-image: url("/assets/Phone/Wave below events.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,6 +66,10 @@
     position: relative;
     
 }
+
+ion-icon{
+  color: white;
+}
   
 @media (max-width: 500px) {
     .swiper_container {
@@ -95,21 +99,27 @@
   
 .slider-controler {
     position: relative;
-    bottom: 2rem;
+    bottom: 6%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
 .slider-controler .swiper-button-next {
     left: 58% !important;
-    transform: translateX(-58%) !important;
+    transform: translateX(-58%) translateY(15%) !important;
+  }
+
+  .slider-controler .swiper-button-prev {
+    transform: translateX(-42%) translateY(15%) !important;
   }
   
 @media (max-width: 990px) {
     .slider-controler .swiper-button-next {
       left: 70% !important;
       transform: translateX(-70%) !important;
+      transform: translateY(15%);
     }
   }
   
@@ -124,6 +134,7 @@
     .slider-controler .swiper-button-prev {
       left: 30% !important;
       transform: translateX(-30%) !important;
+      transform: translateY(15%);
     }
   }
   
@@ -135,18 +146,16 @@
   }
   
 .slider-controler .slider-arrow {
-    background: var(--white);
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     left: 42%;
-    transform: translateX(-42%);
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
   }
   
 .slider-controler .slider-arrow ion-icon {
-    font-size: 2rem;
-    color: #222224;
+    font-size: 75px;
+    color: white;
   }
   
 .slider-controler .slider-arrow::after {
@@ -155,8 +164,10 @@
   
 .swiper-pagination {
     position: relative;
-    width: 15rem !important;
+    margin-top: 2%;
     bottom: 1rem;
+    transform:translateY(23px) !important;
+    z-index: -10 !important;
   }
   
 .swiper-pagination .swiper-pagination-bullet {
@@ -164,7 +175,7 @@
   }
   
 .swiper-pagination .swiper-pagination-bullet-active {
-    background: var(--primary);
+    background: white;
   }
   .updates{
     width: 100%;
@@ -186,7 +197,8 @@
     padding-left: 5%;
     font-size: xx-large;
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    margin-top: 5%;
   }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ..............................................................DESKTOP................................
@@ -199,15 +211,15 @@
     }
     .swiper-slide {
       width: 40% !important;
-      height: 100% !important;
+      height: 90% !important;
     }
     .swiper-slide img {
       width: 100% !important;
       height: 100% !important ;
     }
     .gallery_background{
-      background-image: url("../../public/assets/Phone/Wave below events.svg");
-      background-size: cover;
+      background-image: url("/assets/Phone/Wave below events.svg");
+      background-size:cover;
       background-position: center;
       background-repeat: no-repeat;
       position: absolute;
@@ -237,7 +249,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    
+    margin-top: 0%;
   }
 
   .update_background{
@@ -253,7 +265,7 @@
     margin-top: -5%;
     font-size: xxx-large;
     color: white;
-    
+    margin-bottom: 5%;
   }
   .important-class{
       width:30% !important;

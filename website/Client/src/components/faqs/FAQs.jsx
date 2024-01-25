@@ -2,28 +2,27 @@ import './faqs.css'
 import { useState } from 'react';
 
 const FAQs = () => {
-  const [active, setActive] = useState(null);
   return (
     <div className='FAQs'>
       <div className="faq_background">
-        <div className="faq_heading"><h1>FAQs</h1></div>
+        <div className="faq_heading"><h2>FAQs</h2></div>
         <div class="accordion accordion-flush" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      Are non college students allowed to attend the fest?
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      Are non GITAM students allowed to attend the fest?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Yes, the fest is open for non college students. However, certain events may have specific eligibility criteria.
+        Yes, the fest is open for non GITAM undergradutate/graduate students. However, certain events may have specific eligibility criteria.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      How can I register for college fest?
+      How can I register for Pramana 2024?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -40,7 +39,7 @@ const FAQs = () => {
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      The fest will feature a variety of events including cultural performances, workshops and more. Check the events schedule for details.
+      The fest will feature a variety of events including cultural performances, workshops and competitions. Check the events section for details.
       </div>
     </div>
   </div>

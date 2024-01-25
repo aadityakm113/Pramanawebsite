@@ -11,9 +11,15 @@ import 'swiper/css/effect-coverflow';
 
 const Updates = (props) => {
   const [posts, setPosts] = useState([]);
+  const [screenWdt,setScreenwdt] = useState(window.innerWidth)
+  const handleResize = () => {
+    setScreenwdt(window.innerWidth)
+  }
   const top_5 =[]
  
   useEffect(() => {
+    setScreenwdt(window.innerWidth);
+    window.addEventListener('resize',handleResize)
     const fetchInstagramPosts = async () => {
       try {
         const response = await axios.get(
@@ -24,7 +30,7 @@ const Updates = (props) => {
         console.log(data.data);
         if (data && data.data) {
           
-          for(var i=0;i<=4;i++)
+          for(var i=0;i<=8;i++)
           {
             top_5.push(data.data[i])
           }
@@ -56,7 +62,7 @@ const Updates = (props) => {
           modifier: 2.5,
         }
       }
-      pagination={{el:'', clickable:true}}
+      pagination={{el:'.swiper-pagination', clickable:true}}
       navigation={{
         nextEl:'.swiper-button-next',
         prevEl:'.swiper-button-prev',
@@ -76,6 +82,15 @@ const Updates = (props) => {
               ):null}
             </div>
             )}
+        {screenWdt>=800?<div className="slider-controler">
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div className="swiper-pagination"></div>
+      </div>:<div></div>}
     </Swiper>
     </div>
   );
