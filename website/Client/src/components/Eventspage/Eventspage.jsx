@@ -7,7 +7,6 @@ const Eventspage = () => {
     <div>
         <Eventnavbar/>
         <Page/>
-        <Link to='/'><i className='bx bxs-home-alt-2 text-[50px]' ></i></Link>
         
         <Footer/>
     </div>

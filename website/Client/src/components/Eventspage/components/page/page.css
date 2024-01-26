@@ -38,7 +38,7 @@
     width: 68px;
 }
 .epage_text{
-    min-height:30%;
+    min-height:20%;
     text-align: right;
     color: white;
     display: flex;
@@ -50,8 +50,12 @@
     font-size: xx-large;
     font-family: 'Berkshire Swash';
     margin-left:5%;
+    margin-bottom:5%;
 }
 
+.button_container{
+    display:flex;
+}
 .buttons{
     display:flex;
     color:white;
@@ -73,6 +77,7 @@
     flex-direction:column;
     justify-content:center;
     padding:3%;
+    
 }
 
 .pramana_button{
@@ -90,6 +95,125 @@
 .....................................................DESKTOP.............................................................................
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media(min-width:800px){
+    .epage{
+        height: 150vh;
+    }
+    .epage_container{
+        min-height: 70%;
+        width: 100%;
+        color: black;
 
+    }
+    .epage_background{
+        height: 121%;
+    }
+    .logo{ 
+        left: -41%;
+        top: -20%;
+    }
+    /* .logo img{
+        width: 100px;
+    } */
+    .epage_text{
+        /* min-height:30%; */
+        font-family: 'Berkshire Swash';
+        text-align: center;
+        color: white;
+        display: flex;
+        font-size: 120px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 11%;
+        margin-top:5%;
+    }
+    .epage_text h1{
+        font-size: 120px;
+        font-family: 'Berkshire Swash';
+    }
+    .epage_text span{
+        font-family: 'Poppins',sans-serif;
+        font-size: 25pxeepage
+    }
+    
+    /* .buttons{
+        display:flex;
+        color:white;
+        font-family: 'Poppins',sans-serif;
+        font-size:x-large;
+        justify-content:space-between;
+        padding:2%;
+        
+        border-radius: 17.391px;
+        align-items:center;
+        width:90%;
+        margin-left:5%;
+        flex:1;
+    }
+    
+    .rtp_button{
+        display:flex;
+        border-radius: 17.391px;
+        background: #9030CC;
+        flex-direction:column;
+        justify-content:center;
+        padding:3%;
+        width:23%
+    }
+    
+    .pramana_button{
+        display:flex;
+        border-radius: 17.391px;
+        background: #9030CC;
+        flex-direction:column;
+        justify-content:center;
+        padding:3%;
+        width:23%  
+    } */
+    .button_container{
+        display:flex;
+        margin-right:5%;
+    }
+    .buttons {
+        display: flex;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: x-large;
+        justify-content: space-between;
+        padding: 1%;
+        background: #6C14A4;
+        border-radius: 20px;
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .rtp_button{
+        display: flex;
+        border-radius: 17.391px;
+        background: #9030CC;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+        width: 23%;
+    }
+    .pramana_button{
+        display: flex;
+        border-radius: 17.391px;
+        background: #9030CC;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+        width: 23%;
+    }
 
+    .clickable{
+        height:100%;
+        width:100%;
+        padding:2%;
+    }
+    
 }
