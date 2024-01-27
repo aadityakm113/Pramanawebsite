@@ -11,13 +11,16 @@ const Page = () =>{
     window.addEventListener('resize',handleResize)
   })
     // flag - road to pramana and pramama
-   return(<div className="epage">
+   return(
+   <div className="epage">
         {/* hard coding the header section  */}
-        <div className="epage_container">
-            {/* <div className="logo mt-[12%] ml-[-7%]">
-                <img src='../assets/new logo.png' alt='Logo'/>
-            </div> */}
-            <div className="epage_background"><div className='blur'></div></div>
+        <div className="epage_header_container">
+            <div className="epage_background">
+                <div className='blur'></div>
+                <div className="e_logo hidden md:block min-w-800">
+                    <img src='/assets/new logo.png' alt='Logo'/>
+                </div>
+            </div>
             <div className="epage_text">
                 <h1>Events at Pramana</h1>
             </div>
