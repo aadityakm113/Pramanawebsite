@@ -1,5 +1,6 @@
 import './page.css'
 import { useState, useEffect } from 'react'
+
 const Page = () =>{
     const [screenWdt,setScreenwdt] = useState(window.innerWidth)
     const handleResize = () => {
@@ -13,10 +14,10 @@ const Page = () =>{
    return(<div className="epage">
         {/* hard coding the header section  */}
         <div className="epage_container">
-            <div className="epage_background"><div className='blur'></div></div>
             {/* <div className="logo mt-[12%] ml-[-7%]">
-                <img  src="/assets/new logo.png" alt="" />
+                <img src='../assets/new logo.png' alt='Logo'/>
             </div> */}
+            <div className="epage_background"><div className='blur'></div></div>
             <div className="epage_text">
                 <h1>Events at Pramana</h1>
             </div>
