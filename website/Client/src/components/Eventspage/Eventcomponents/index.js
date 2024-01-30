@@ -1,6 +1,6 @@
-import Footer from "./footer/Footer"
+
 import Page from "./page/Page"
 import Eventnavbar from "./eventnavbar/Eventnavbar"
+import Epevents from "./Epevents/Epevents"
 
-
-export  {Footer,Page,Eventnavbar}
+export  {Page,Eventnavbar,Epevents}

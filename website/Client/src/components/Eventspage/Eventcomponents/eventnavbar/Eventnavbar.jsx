@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import '../eventnavbar/eventnavbar.css'
+import './eventnavbar.css'
 import {Link} from "react-router-dom"
 
 const Eventnavbar = () => {

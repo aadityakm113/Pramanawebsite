@@ -1,14 +1,19 @@
-import React from 'react'
-import {Link} from "react-router-dom"
-import {Footer,Page,Eventnavbar} from './components'
-
+import { useState } from 'react'
+import Footer from '../Footer'
+import { Epevents,Page,Eventnavbar } from "./Eventcomponents"
 const Eventspage = () => {
+  const [pramana,notPramana] = useState(false)
+  const handleToggle = (flag) => {
+    notPramana(flag)
+    
+  }
   return (
-    <div>
+    <div style={{height:'auto',width:'100%',display:'flex',flexDirection:'column'}}>
         <Eventnavbar/>
-        <Page/>
-        
+        <Page flag={handleToggle}/>
+        <Epevents flag={pramana}/>
         <Footer/>
+        
     </div>
   )
 }
