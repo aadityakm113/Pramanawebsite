@@ -9,7 +9,7 @@ const Page = ({flag}) => {
     }
   return (
     <div className="evehero_container">
-        <div className='logo hidden md:block'>
+        <div className='logo hidden mt-[11%] ml-[-7%] md:block -top-40'>
             <img src="assets/new logo.png" alt="" />
         </div>
         <div className='evehero_text'>
