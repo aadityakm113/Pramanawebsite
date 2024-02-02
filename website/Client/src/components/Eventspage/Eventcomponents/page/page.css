@@ -21,7 +21,7 @@
     outline: none;
     min-width: 130px;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: #9030cc;
     transition: all ease-in-out 0.2s;
     font-family: 'Poppins',sans-serif;
     border-radius: 10px;
@@ -55,21 +55,30 @@
         position: relative;
     
     }
-    .evehero_text h1 {
+    .evehero_text  {
         font-family: 'Berkshire Swash';
         font-size: xxx-large;
+        position:relative;
+    }
+    .evehero_text h1{
+        top:-125px;
+        font-size: 150%;
+        position:relative;
+        align-self:center;
     }
     .evehero_buttons{
         display:flex;
         max-width:50%;
+        position:absolute;
+        margin-top:290px
     }
 
     .evehero_btn{
-        border: 6px solid rgb(58, 21, 101);
+        border: 6px solid #4F2A7F;
         outline: none;
         min-width: 230px;
         padding: 10px;
-        background-color: blueviolet;
+        background-color: #9030cc;
         transition: all ease-in-out 0.2s;
         font-family: 'Poppins',sans-serif;
         border-radius: 20px;
@@ -79,6 +88,12 @@
         z-index: 100;
         margin-bottom:5%;
         cursor: pointer;
+        
+
+    }
+    .logo{
+        margin-top: 10%;
+        position: relative;
     }
 
 }

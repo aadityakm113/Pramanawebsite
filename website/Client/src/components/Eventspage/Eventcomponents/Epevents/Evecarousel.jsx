@@ -38,7 +38,7 @@ const Evecarousel = ({events}) => {
         <div>
           {days.map((e,idx) => (
             <div key={idx}>
-              <h1  className={`${dayActive===idx? 'block' : 'hidden'}`} >{e}</h1>
+              <h1  className={`${dayActive===idx? 'block' : 'hidden'}`}><b>{e}</b></h1>
             </div>
             
           ))}

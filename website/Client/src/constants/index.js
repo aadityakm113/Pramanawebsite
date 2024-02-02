@@ -1,12 +1,12 @@
 export const eventlist = [
     {
+        title:"Threeory",
         id:1,
-        title:"Artist Performance",
-        image:'Artistperformance.webp',
+        image:"Bandperformance.webp",
         day:"DAY 1",
         time: "7:30 PM - 9:30 PM",
-        date:"08/02/24",
-        description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
+        date:"09/02/24",
+        description: "Experience a sonic journey with a dynamic band performance that blends raw energy, skillful musicianship, and unforgettable melodies brought to you by Threeory"
     },
     {
         title:"Battle of Bands",
@@ -54,17 +54,8 @@ export const eventlist = [
         description: "Get ready for an unfiltered dance showdown where authenticity reigns supreme – witness raw talent and genuine passion in a fierce dance-off."
     },
     {
-        title: "Celestia",
-        id:7,
-        image:"Celestia.webp",
-        day:"DAY 2",
-        time: "10:00 AM - 12:00 PM",
-        date:"09/02/24",
-        description: "Experience the celestial allure of fashion at Celestia, where style meets the stars in a celestial symphony of elegance and grace"
-    },
-    {
         title:"Auto Expo",
-        id:8,
+        id:7,
         image:"autoexpo.webp",
         day:"DAY 2",
         time: "12:00 PM - 3:00 PM",
@@ -73,7 +64,7 @@ export const eventlist = [
     },
     {
         title:"Culturals & Ramp",
-        id:9,
+        id:8,
         image:"Cultural2.webp",
         day:"DAY 2",
         time: "4:30 PM - 7:30 PM",
@@ -81,13 +72,23 @@ export const eventlist = [
         description: "Indulge in the rich tapestry of cultural performances and then witness the glamour unfold on the runway with a separate and spectacular fashion ramp walk."
     },
     {
-        title:"Band Performance",
-        id:10,
-        image:"Bandperformance.webp",
+        id:9,
+        title:"Ram Miriyala",
+        image:'Artistperformance.webp',
         day:"DAY 2",
         time: "7:30 PM - 9:30 PM",
-        date:"09/02/24",
-        description: "Experience a sonic journey with a dynamic band performance that blends raw energy, skillful musicianship, and unforgettable melodies"
+        date:"08/02/24",
+        description: "Get ready to sing along to all your favorite hits! Ram Miriyala is bringing his greatest songs to the stage for one unforgettable night."
+    },
+    {
+        title:"Fashion Nova ",
+        id:10,
+        image:"Celestia.webp",
+        day:"DAY 3",
+        time: "10:00 AM - 12:00 PM",
+        date:"10/02/24",
+        description: "Unleash your inner fashionista! ✨ Presenting Fashion Nova, the ultimate style showdown. Strut your stuff and win big! "
+        
     },
     {
         title:"Culturals",
@@ -99,17 +100,8 @@ export const eventlist = [
         description: "Embark on a cultural odyssey with enchanting performances that weave together traditions, rhythms, and artistic expressions from around the world"
     },
     {
-        title:"Meet and greet",
-        id:12,
-        image:"Celebmeet.webp",
-        day:"DAY 3",
-        time: "6:00 PM - 7:00 PM",
-        date:"10/02/24",
-        description: "Get up close and personal with your favorite stars in an exclusive Celebrity Meet and Greet, where fans and fame come together for an unforgettable experience"
-    },
-    {
         title:"Project 91",
-        id:13,
+        id:12,
         image:"DJnight.webp",
         day:"DAY 3",
         time: "7:00 PM - 8:00 PM",
@@ -118,7 +110,7 @@ export const eventlist = [
     },
     {
         title:"Nina Suerte",
-        id:14,
+        id:13,
         image:"nina.webp",
         day:"DAY 3",
         time: "8:00 PM - 9:30 PM",
@@ -129,9 +121,9 @@ export const eventlist = [
 
 export const roadToPramana =[
     {
-        id:1,
+        id:14,
         title:"Cook Your Heart Out (Prelims)",
-        image:'cookyourheartout.webp',
+        image:'cooking.webp',
         day:"DAY 1",
         time: "1:00 PM - 4:00 PM",
         date:"25/01/24",
@@ -140,9 +132,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:2,
-        title:"Drag workshop by Dr. Patruni Sastry",
-        image:'dragworkshop.webp',
+        id:15,
+        title:"Drag workshop by Dr. Patruni",
+        image:'drag.webp',
         day:"DAY 2",
         time: "1:00 PM - 3:00 PM",
         date:"29/01/24",
@@ -151,7 +143,7 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:3,
+        id:16,
         title:"Satellite Making by Dr. Seshagiri",
         image:'satellite.webp',
         day:"DAY 2",
@@ -162,9 +154,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:4,
+        id:17,
         title:"Cook Your Heart Out (Finals)",
-        image:'cookfinals.webp',
+        image:'cooking.webp',
         day:"DAY 2",
         time: "1:00 PM - 4:00 PM",
         date:"29/01/24",
@@ -173,9 +165,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:5,
+        id:18,
         title:"Career Labs Seminar",
-        image:'dragworkshop.webp',
+        image:'career labs.webp',
         day:"DAY 3",
         time: "1:00 PM - 3:00 PM",
         date:"30/01/24",
@@ -184,7 +176,7 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:6,
+        id:19,
         title:"Physics Workshop by Dr. Vishwam",
         image:'physics.webp',
         day:"DAY 3",
@@ -195,9 +187,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:7,
+        id:20,
         title:"Hope Trust Clinic",
-        image:'dragworkshop.webp',
+        image:'hope.webp',
         day:"DAY 3",
         time: "1:00 PM - 4:00 PM",
         date:"29/01/24",
@@ -206,9 +198,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:8,
+        id:21,
         title:"Marginalised People in History and Food & Culinary Workshop",
-        image:'MPHFCW.webp',
+        image:'marg.webp',
         day:"DAY 3",
         time: "1:00 PM - 6:00 PM",
         date:"30/01/24",
@@ -217,9 +209,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:9,
+        id:22,
         title:"Hope Trust Clinic",
-        image:'Hope.webp',
+        image:'hope.webp',
         day:"DAY 4",
         time: "1:00 PM - 4:00 PM",
         date:"31/01/24",
@@ -228,9 +220,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:10,
+        id:23,
         title:"Accurate Ignite Workshop",
-        image:'dragworkshop.webp',
+        image:'accurate ignite.webp',
         day:"DAY 4",
         time: "1:00 PM - 4:00 PM",
         date:"31/01/24",
@@ -239,7 +231,7 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:11,
+        id:24,
         title:"Power Bi Workshop",
         image:'power.webp',
         day:"DAY 4",
@@ -250,9 +242,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:12,
+        id:25,
         title:"Vault & Dome - Brick Workshop",
-        image:'dragworkshop.webp',
+        image:'brick workshop.webp',
         day:"DAY 4",
         time: "1:00 PM - 5:00 PM",
         date:"29/01/24",
@@ -261,9 +253,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:13,
+        id:26,
         title:"On Spot Writing Competition",
-        image:'dragworkshop.webp',
+        image:'writing.webp',
         day:"DAY 2",
         time: "1:30 PM - 5:30 PM",
         date:"29/01/24",
@@ -272,7 +264,7 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:14,
+        id:27,
         title:"Tech Thrive",
         image:'hackathon.webp',
         day:"DAY 5",
@@ -283,9 +275,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:15,
+        id:28,
         title:"Persist Energy EV Workshop",
-        image:'EV.webp',
+        image:'ev.webp',
         day:"DAY 5",
         time: "1:00 PM - 4:00 PM",
         date:"01/02/24",
@@ -294,7 +286,7 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:16,
+        id:29,
         title:"Fine & Performing Arts Workshop",
         image:'hackathon.webp',
         day:"DAY 5",
@@ -305,9 +297,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:17,
+        id:30,
         title:"Illustration and Comic Artistry Workshop",
-        image:'hackathon.webp',
+        image:'comic artistry.webp',
         day:"DAY 5",
         time: "9:00 AM - 10:00 AM",
         date:"01/02/24",
@@ -316,9 +308,9 @@ export const roadToPramana =[
         description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
-        id:18,
+        id:31,
         title:"Prompt Engineering Crash Course",
-        image:'hackathon.webp',
+        image:'prompt.webp',
         day:"DAY 5",
         time: "9:00 AM - 10:00 AM",
         date:"01/02/24",

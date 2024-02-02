@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Footer from '../Footer'
-import { Epevents,Page,Eventnavbar } from "./Eventcomponents"
+import  Footer from '../contactandfooter/Footer'
+import { Epevents,Page,Eventnavbar} from "./Eventcomponents"
 const Eventspage = () => {
   const [pramana,notPramana] = useState(false)
   const handleToggle = (flag) => {
