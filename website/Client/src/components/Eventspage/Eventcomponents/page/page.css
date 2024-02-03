@@ -12,9 +12,9 @@
 
 }
 .logo_events{
-    position: relative;
-    top: -55%;
-    left: -35%;
+    position: absolute;
+    top: 3%;
+    left: 10%;
 }
 .logo_events img{
     position: relative;
@@ -24,6 +24,7 @@
 .evehero_text h1 {
     font-family: 'Berkshire Swash';
     font-size: xx-large;
+    margin-top: 20%;
 
 }
 .evehero_btn{
@@ -44,6 +45,7 @@
     justify-content: space-evenly;
     display: flex;
     padding-inline: 10px;
+    
 }
 .evehero_btn:hover{
     transform: scale(110%);
@@ -80,7 +82,7 @@
         display:flex;
         max-width:50%;
         position:absolute;
-        margin-top:290px
+        margin-top:370px
     }
 
     .evehero_btn{
