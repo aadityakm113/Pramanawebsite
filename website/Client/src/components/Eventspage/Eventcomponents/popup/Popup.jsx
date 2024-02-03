@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './popup.css'
 import { useRef } from 'react';
 
-import { eventlist, roadToPramana } from 'C:/Users/chait/OneDrive/Desktop/Pramana website/Project/Pramanawebsite/website/Client/src/constants/index.js'
+import { eventlist, roadToPramana } from '../../../../constants/index'
 
 const Popup = ({onClose, code}) => {
     const [screenWdt,setScreenwdt] = useState(window.innerWidth)

@@ -11,6 +11,16 @@
     position: relative;
 
 }
+.logo_events{
+    position: relative;
+    top: -55%;
+    left: -35%;
+}
+.logo_events img{
+    position: relative;
+    width: 108px;
+    
+}
 .evehero_text h1 {
     font-family: 'Berkshire Swash';
     font-size: xx-large;
