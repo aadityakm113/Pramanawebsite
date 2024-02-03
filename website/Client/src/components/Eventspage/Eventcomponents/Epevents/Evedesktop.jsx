@@ -24,8 +24,10 @@ const Evedesktop = ({events}) => {
   return (
     <div>
       { events.length>16?
-      <p className='description'>Gear up for an exhilarating week leading to the grand spectacle of Pramana! "Road to Pramana" sets the stage for the upcoming techno-cultural fest, offering a tantalizing taste of what's to come. In the seven days preceding the main event, our campus transforms into a hub of technical brilliance and cultural finesse.</p>:
-      <p className='description'>This is a description for the pramama</p>
+      <div className='description'>
+        <p>Gear up for an exhilarating week leading to the grand spectacle of Pramana! "Road to Pramana" sets the stage for the upcoming techno-cultural fest, offering a tantalizing taste of what's to come. In the seven days preceding the main event, our campus transforms into a hub of technical brilliance and cultural finesse.</p>
+      </div>:
+      <div className='description'><p>This is a description for the pramama</p></div>
       }
       <h1 className='eveschedule'>Event Schedule</h1>
       <div className='days_list'>

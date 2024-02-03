@@ -9,7 +9,7 @@ const Page = ({flag}) => {
     }
   return (
     <div className="evehero_container">
-        <div className='logo hidden ml-[-7%] md:block -top-40'>
+        <div className='logo_events hidden  ml-[-7%] md:block '>
             <img src="assets/new logo.png" alt="" />
         </div>
         <div className='evehero_text'>
@@ -18,7 +18,6 @@ const Page = ({flag}) => {
         <div className='evehero_buttons'>
             <button onClick={handleToggle} className='evehero_btn'>Road to pramana</button>
             <button onClick={handleTogglePramana} className='evehero_btn'>Pramana</button>
-
         </div>
     </div>
   )
