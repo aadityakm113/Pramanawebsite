@@ -20,7 +20,7 @@ const Popup = ({onClose, code}) => {
         }
     }
     const events = eventlist.concat(roadToPramana);
-    console.log(events.length)
+    console.log(events)
     return(
         <div ref={modalRef} onClick={closeModal} id='main' className="fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
             <div className='popupbox mt-10 flex flex-col text-white'>
@@ -52,7 +52,9 @@ const Popup = ({onClose, code}) => {
                     <h4 className='text-l font-extrabold max-w-md'>{events[code].date}</h4><br/>
                     <h4 className='text-l font-extrabold max-w-md'>{events[code].time}</h4><br/>
                     <p className='text-l font-bold max-w-lg'>{events[code].description}</p><br/>
+                    {events[code].link!=="" && 
                     <button id="buy" className='bg-white mt-4 max-w-md py-2 font-extrabold rounded-md flex items-center justify-center'><a className='text-purple-900' href="https://linktr.ee/pramanahyd">Register</a></button>
+                    }
                     </div>
                 </div>
             }

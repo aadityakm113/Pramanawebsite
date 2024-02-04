@@ -14,7 +14,9 @@ const Pramana = ({data}) => {
                   <h1><b>{e.title}</b></h1>
                   {/* {screenWdt>=800?<h3>{e.description}</h3>:<div></div>} */}
                 </div>
+                <div className='time'>
                 <h2><b>{e.time}</b></h2>
+                </div>
               </div>
             </div>
         ))}
