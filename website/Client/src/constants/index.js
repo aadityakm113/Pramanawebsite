@@ -164,7 +164,7 @@ export const eventlist = [
         date:"08/02/24",
         description:"Witness musical mastery collides as diverse bands compete for the title in an electrifying Battle of the Bands showdown.",
         venue:"Shivaji Auditorium",
-        link:""
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSfimXgEorNfN16BdzUoMm_1g8y-wl4RqvTjLbvWB62FUI96qA/viewform"
     },
     {
         id:5,

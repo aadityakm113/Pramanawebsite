@@ -32,14 +32,12 @@ const Popup = ({onClose, code}) => {
                     <div className='col-span-2'>
                     <h1 className='text-xl font-extrabold max-w-md'>{events[code].title}</h1><br/>
                     <h4 className='text-l font-extrabold max-w-md'>{events[code].date}</h4><br/>
-                    {code>=13 &&
                     <div>
                     <h4 className='text-l font-extrabold max-w-md'>Venue</h4><br/>
                     </div>
-                    }
                     <p className='text-l font-bold max-w-lg'>{events[code].description}</p>
                     </div>
-                    {code>=13 &&
+                    {events[code].link!=="" &&
                     <div className='col-span-2'>
                     <button id="buy" className='bg-white mt-4 max-w-md py-2 font-extrabold rounded-md flex items-center justify-center'><a className='text-purple-900' href="https://linktr.ee/pramanahyd">Register</a></button>
                     </div>}
@@ -53,7 +51,7 @@ const Popup = ({onClose, code}) => {
                     <h4 className='text-l font-extrabold max-w-md'>{events[code].time}</h4><br/>
                     <p className='text-l font-bold max-w-lg'>{events[code].description}</p><br/>
                     {events[code].link!=="" && 
-                    <button id="buy" className='bg-white mt-4 max-w-md py-2 font-extrabold rounded-md flex items-center justify-center'><a className='text-purple-900' href="https://linktr.ee/pramanahyd">Register</a></button>
+                    <button id="buy" className='bg-white mt-4 max-w-md py-2 font-extrabold rounded-md flex items-center justify-center'><a className='text-purple-900' href={events[code].link}>Register</a></button>
                     }
                     </div>
                 </div>
