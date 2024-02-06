@@ -15,9 +15,6 @@ const Abpage = ({flag}) => {
         <div className='abhero_text'>
             <h1 className='text-white'>Meet Team Pramana!</h1>
         </div>
-        <div className='core_com'>
-            <h1 className='text-white'>Core Committee</h1>
-        </div>
     </div>
   )
 }
