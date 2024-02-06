@@ -44,7 +44,7 @@ const Eventnavbar = () => {
       </div>:<div className="navbar_desktop font-bold justify-end">
         <div className="navlinks_desktop hover:text-purple-500 w-1/2 mr-12">
           <Link className="hover:text-purple-500 nav_link" to='/'>Home</Link>
-          <Link to='/about'>About Us</Link>
+          <Link className="hover:text-purple-500 nav_link" to='/about'>About Us</Link>
           <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
         </div>  
       </div>}
