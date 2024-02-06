@@ -38,11 +38,13 @@ const Abnavbar = () => {
         </div>
         <div id="mobile" className={`nav_links hover:text-purple-500 ${menu?'nav_bar_slide':''}`}>
         <Link to='/'>Home</Link><br/>
+        <Link to='/events'>Events</Link><br/>
           <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/>
         </div>
       </div>:<div className="navbar_desktop font-bold justify-end">
         <div className="navlinks_desktop hover:text-purple-500 w-1/2 mr-12">
           <Link className="hover:text-purple-500 nav_link" to='/'>Home</Link>
+          <Link to='/events'>Events</Link><br/>
           <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
         </div>  
       </div>}

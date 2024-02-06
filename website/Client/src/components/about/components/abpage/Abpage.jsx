@@ -8,12 +8,15 @@ const Abpage = ({flag}) => {
         flag(false)
     }
   return (
-    <div className="evehero_container">
+    <div className="abhero_container">
         <div className='logo_events hidden  ml-[-7%] md:block '>
             <img src="assets/new logo.png" alt="" />
         </div>
-        <div className='evehero_text'>
-            <h1 className='text-white'>Team Pramana</h1>
+        <div className='abhero_text'>
+            <h1 className='text-white'>Meet Team Pramana!</h1>
+        </div>
+        <div className='core_com'>
+            <h1 className='text-white'>Core Committee</h1>
         </div>
     </div>
   )

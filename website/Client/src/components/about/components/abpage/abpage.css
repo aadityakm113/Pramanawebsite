@@ -1,4 +1,4 @@
-.evehero_container{
+.abhero_container{
     min-height:30vh ;
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
     width: 108px;
     
 }
-.evehero_text h1 {
+.abhero_text h1 {
     font-family: 'Berkshire Swash';
     font-size: xx-large;
     margin-top: 20%;
@@ -55,7 +55,7 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ..................................................................................................*/
 @media (min-width:800px){
-    .evehero_container{
+    .abhero_container{
         min-height:75vh ;
         width: 100%;
         display: flex;
@@ -68,42 +68,18 @@
         position: relative;
     
     }
-    .evehero_text  {
+    .abhero_text  {
         font-family: 'Berkshire Swash';
         font-size: xxx-large;
         position:relative;
     }
-    .evehero_text h1{
+    .abhero_text h1{
         top:-125px;
         font-size: 150%;
         position:relative;
         align-self:center;
     }
-    .evehero_buttons{
-        display:flex;
-        max-width:50%;
-        position:absolute;
-        margin-top:150px
-    }
 
-    .evehero_btn{
-        border: 6px solid #4F2A7F;
-        outline: none;
-        min-width: 230px;
-        padding: 10px;
-        background-color: #9030cc;
-        transition: all ease-in-out 0.2s;
-        font-family: 'Poppins',sans-serif;
-        border-radius: 20px;
-        margin-top: 20px;
-        color: white;
-        font-size: 150;
-        z-index: 100;
-        margin-bottom:5%;
-        cursor: pointer;
-        
-
-    }
     .logo{
         margin-top: 10%;
         position: relative;
