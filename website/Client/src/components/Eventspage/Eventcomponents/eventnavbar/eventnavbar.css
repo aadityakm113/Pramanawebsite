@@ -66,22 +66,22 @@
     justify-content: space-between;
     
 }
-.navbar_desktop{
+.navbar_events{
     display: flex;
     z-index: 1000;
     position: fixed;
     right: 0;
-    width: 40%;
+    width: 50%;
     margin-right: 2%;
     margin-top: 2%;
     
 }
-.navlinks_desktop{
+.navlinks_events{
     display: flex;
-    width: 50%;
+    width: 70%;
     margin-top: 1rem;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 150%;
     
 }

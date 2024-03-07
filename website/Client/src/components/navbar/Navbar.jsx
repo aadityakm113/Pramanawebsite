@@ -40,14 +40,14 @@ const Navbar = () => {
         <Link to='/events'>Events</Link><br/>
           <a className="hover:text-purple-500 " onClick={handleMenu} href="#faqs">FAQs</a><br/>
           <Link to='/about'>About Us</Link>
-          <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/>
+          {/* <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/> */}
         </div>
       </div>:<div className="navbar_desktop font-bold ">
         <div className="navlinks_desktop hover:text-purple-500">
           <Link to='/events'>Events</Link>
           <a className="hover:text-purple-500 nav_link" href="#faqs">FAQs</a>
           <Link to='/about'>About Us</Link>
-          <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
+          {/* <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a> */}
         </div>  
       </div>}
     </div>

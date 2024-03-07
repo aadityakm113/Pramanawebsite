@@ -39,13 +39,13 @@ const Eventnavbar = () => {
         <div id="mobile" className={`nav_links hover:text-purple-500 ${menu?'nav_bar_slide':''}`}>
         <Link to='/'>Home</Link><br/>
         <Link to='/about'>About Us</Link>
-          <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/>
+          {/* <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/> */}
         </div>
-      </div>:<div className="navbar_desktop font-bold justify-end">
-        <div className="navlinks_desktop hover:text-purple-500 w-1/2 mr-12">
+      </div>:<div className="navbar_events font-bold justify-end">
+        <div className="navlinks_events hover:text-purple-500  mr-12">
           <Link className="hover:text-purple-500 nav_link" to='/'>Home</Link>
           <Link className="hover:text-purple-500 nav_link" to='/about'>About Us</Link>
-          <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
+          {/* <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a> */}
         </div>  
       </div>}
     </div>

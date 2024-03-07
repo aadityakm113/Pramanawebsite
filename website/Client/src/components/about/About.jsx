@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import  Footer from '../contactandfooter/Footer'
-import { Abnavbar,Abpage,Abteam } from './components'
+import { Abnavbar,Abpage,Abteam, Footer } from './components'
+import "./about.css"
 
 const About = () => {
   return (

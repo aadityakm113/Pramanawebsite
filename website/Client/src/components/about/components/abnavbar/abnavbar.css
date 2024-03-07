@@ -66,7 +66,7 @@
     justify-content: space-between;
     
 }
-.navbar_desktop{
+.navbar_about{
     display: flex;
     z-index: 1000;
     position: fixed;
@@ -76,12 +76,12 @@
     margin-top: 2%;
     
 }
-.navlinks_desktop{
+.navlinks_about{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin-top: 1rem;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 150%;
     
 }
